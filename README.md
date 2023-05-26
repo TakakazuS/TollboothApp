@@ -30,7 +30,7 @@ Application Insights is used to monitor all of the Azure Functions in real-time 
 - [Node.js 8+](https://www.npmjs.com/): Install latest long-term support (LTS) runtime environment for local workstation development. A package manager is also required. Node.js installs NPM in the 8.x version. The Azure SDK generally requires a minimum version of Node.js of 8.x. Azure hosting services, such as Azure App service, provides runtimes with more recent versions of Node.js. If you target a minimum of 8.x for local and remove development, your code should run successfully.
 - [Visual Studio Code](https://code.visualstudio.com)
 - [Azure Functions](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-azurefunctions) and Web jobs tools
-- [.NET](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) 6 or [7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) SDK
+- [.NET 6](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) or [7](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) SDK
 - Any extentions required by your language of choice
 
 # Steps
