@@ -1,5 +1,5 @@
 # Tollbooth App
-Toolbootn app hosted in Azure, following [What The Hack - Azure Serverless](https://microsoft.github.io/WhatTheHack/015-Serverless/)
+Toolbootn application hosted in Azure, following [What The Hack - Azure Serverless](https://microsoft.github.io/WhatTheHack/015-Serverless/)
 
 # Solution Architecture
 The solution begins with vehicle photos being uploaded to an Azure Storage blob storage container, as they are captured. A blob storage trigger fires on each image upload, executing the photo processing Azure Function endpoint (on the side of the diagram), which in turn sends the photo to the Cognitive Services Computer Vision API OCR service to extract the license plate data.
